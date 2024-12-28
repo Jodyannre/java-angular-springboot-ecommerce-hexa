@@ -1,0 +1,13 @@
+spring.datasource.url=jdbc:postgresql://localhost:5432/codecake
+spring.datasource.username=codecake
+spring.datasource.password=codecake
+spring.datasource.driver-class-name=org.postgresql.Driver
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+
+
+#liquidbase
+
+spring.liquibase.change-log=classpath:db/changelog/master.xml
+spring.liquibase.liquibaseSchema=${dbSchema}
+spring.liquibase.defaultSchema=${dbSchema}
+

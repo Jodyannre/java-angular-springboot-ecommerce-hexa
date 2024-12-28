@@ -1,3 +1,4 @@
+/* eslint-disable */
 export default {
   displayName: 'ecom-front',
   preset: '../../jest.preset.js',
